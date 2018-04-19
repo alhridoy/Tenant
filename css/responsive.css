@@ -1,0 +1,74 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+   .navbar-right {
+    margin-top: 10px;
+}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.custom-navbar {
+  border-bottom: 0;
+}
+.custom-navbar.top-nav-collapse {
+  background: rgba(0,0,0,0.7);
+  padding: 6px 0;
+}
+.custom-navbar {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 30px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+
+}
+/*mobile-layout*/
+@media only screen and (max-width: 767px) { 
+ .sticky-wrapper, .navbar-collapse.in {
+    z-index: 100000;
+}
+   .custom-navbar {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.section-title .subtitle {
+    font-size: 22px;
+
+    margin-left: 66px;
+    margin-top: 9px;
+}
+.section-title h3 {
+    font-size: 26px;
+    line-height: 32px;
+}
+p {
+    font-size: 13px;
+}
+.service-details {
+    position: relative;
+    left: 20px;
+    font-size: 14px;
+}
+.service-details li {
+    font-size: 14px;
+    padding: 2px 0;
+}
+.contact-form h4 {
+    font-size: 26px;
+    margin: 0 0 15px 0;
+}
+.slide-text h1 {
+    font-size: 24px;
+}
+.service-details {
+    position: relative;
+    padding-right: 24px;
+}
+.section-title h3 {
+    margin-bottom: 10px;
+}
+}
